@@ -64,4 +64,4 @@ def update():
         update_student(request.form["studname"],request.form["studage"],request.form["dob"],request.form["course"],request.form["duration"],request.form["sno"])
         return redirect("/")
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0")
