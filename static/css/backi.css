@@ -1,0 +1,57 @@
+body {
+    background-image: url("pic2.jpg");
+      
+}
+.container{
+    border-style: solid;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 20%;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url("htnl.jpg");
+   
+    
+}
+.container h2{
+    color: #1d1b1c;
+    text-shadow: -5px -3px 3px #161516;
+    text-align: center;
+
+}
+.container input[type="text"],input[type="password"]
+{
+    color: rgb(25, 27, 27);
+    width: 90%;
+    margin-left: 4%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    height: 20px;
+    border-radius: 10px;
+    
+}
+.button{
+    text-align: center;
+
+}
+.button input[type="submit"]{
+    border-image: url("border1.webp");
+    background-color: rgb(21, 22, 22);
+    color: antiquewhite;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.button input[type="submit"]:hover{
+    background-image: url("color.jpg");
+    transition: 2s;
+}
+.button input[type="submit"]:active{
+    background-color:black;
+
+}
+.container input[type="text"]::after,input[type="password"]:after{
+    background-color: burlywood;
+}
