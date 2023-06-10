@@ -40,14 +40,14 @@ def index():
     return render_template("index.html",stud_data=data["Student_Manager"])
 @app.route("/",methods=["POST","GET"])
 def login():
-    msg=""
-    if request.method=="POST":
+    # msg=""
+    # if request.method=="POST":
 
-        if request.form["username"]=="priya" and request.form["password"]=="2003":
-            return redirect("/home")
-        else:
-            msg="invalid credtials"        
-    return render_template("log.html",message=msg)
+    #     if request.form["username"]=="priya" and request.form["password"]=="2003":
+    #         return redirect("/home")
+    #     else:
+    #         msg="invalid credtials"        
+    return redirect("/home")
 @app.route("/update/<int:id>", methods=["POST","GET"])
 def update_sno(id):
     data=json_1.read_json("data/stud_data.json")
