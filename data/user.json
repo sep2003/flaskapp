@@ -18,20 +18,27 @@
       },
       {
          "sno": 3,
-         "name": "Siva",
-         "age": "20",
-         "dob": "2001-09-06",
+         "name": "subb",
+         "age": "21",
+         "dob": "2001-09-15",
          "course": "",
          "duration": ""
       },
       {
          "sno": 4,
-         "name": "harilatha",
+         "name": "siva",
          "age": "20",
-         "dob": "2003-09-08",
+         "dob": "2001-09-20",
          "course": "python",
-         "duration": "3month",
-         "status": "Improgress"
+         "duration": "2month"
+      },
+      {
+         "sno": 5,
+         "name": "siva",
+         "age": "20",
+         "dob": "2001-09-20",
+         "course": "python",
+         "duration": "2month"
       }
    ]
 }

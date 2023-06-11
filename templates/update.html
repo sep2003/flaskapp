@@ -12,10 +12,12 @@
         <div class="card">
             <div class="card-body">
         <form action="/update" method="post">
-            <input type="text" class="form-control mb-4" placeholder="Enter student name" name="studname">
-            <input type="number" class="from-control mb-4" placeholder="Enter student age" name="studage" style="width:100%;">
+            <input type="text" class="form-control mb-4" name="sno" value="{{ stud.sno }}" hidden>
+            
+            <input type="text" class="form-control mb-4" placeholder="Enter student name" name="studname" value="{{ stud.name }}">
+            <input type="number" class="from-control mb-4" placeholder="Enter student age" name="studage" style="width:100%;" value="{{ stud.age }}">
             <label for="exampleFormControlInput1" class="form-label">joining date</label>
-            <input type="date"class="form-control mb-4" id="exampleFormControlInput1" name="dob" >
+            <input type="date"class="form-control mb-4" id="exampleFormControlInput1" name="dob" value="{{ stud.dob }}"  >
             <input type="text"class="form-control mb-4" placeholder="Enter student course" name="course"> 
             <input type="text" class="form-control mb-4" placeholder="Enter student duration" name="duration">
             <select class="form-select" aria-label="Default select example">
