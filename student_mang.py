@@ -50,7 +50,7 @@ def login():
     return redirect("/home")
 @app.route("/update/<int:id>", methods=["POST","GET"])
 def update_sno(id):
-    data=json_1.read_json( )
+    data=json_1.read_json("data/stud_data.json")
     print(len(data["Student_Manager"]))
     for stud in data["Student_Manager"]:
         print(stud)

@@ -3,33 +3,18 @@
       {
          "sno": 1,
          "name": "priya",
-         "age": "19",
-         "dob": "2003-08-09",
+         "age": "20",
+         "dob": "2003-09-08",
          "course": "python",
-         "duration": "2month"
+         "duration": "3month",
+         "status": "Improgress"
       },
       {
          "sno": 2,
          "name": "varshini",
          "age": "20",
          "dob": "2003-09-09",
-         "course": "python",
-         "duration": "3month"
-      },
-      {
-         "sno": 3,
-         "name": "Siva",
-         "age": "20",
-         "dob": "2001-09-06",
-         "course": "",
-         "duration": ""
-      },
-      {
-         "sno": 4,
-         "name": "harilatha",
-         "age": "20",
-         "dob": "2003-09-08",
-         "course": "python",
+         "course": "web development",
          "duration": "3month",
          "status": "Improgress"
       }
